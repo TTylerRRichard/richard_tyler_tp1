@@ -17,7 +17,6 @@ body {
 }
 
 header {
-
   top: 0;
   left: 0;
   width: 100%;
@@ -25,9 +24,16 @@ header {
 
 }
 
-@font-face {
-  font-family: 'Romantic'; 
-  src: url('assets/fonts/new_romantics/ROMANTIC.TTF') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+h1 {
+  color: rgb(250, 103, 179);
+  font-size: 48px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .h1 {
+    color: rgb(238, 186, 99);
+    font-size: 47px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+  
