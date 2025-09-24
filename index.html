@@ -2,91 +2,123 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="src/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body class="bg-black">
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <header class="d-flex align-items-center p-2">
-        <img class="logo" src="assets/images/Demon-Slayer-Symbol.png">
+  <header class="d-flex align-items-center p-2">
+    <img class="logo" src="assets/images/Demon-Slayer-Symbol.png">
 
-      <div class="d-flex gap-3 p-3 ms-auto justify-content-end">
-  <button type="button" class="btn btn-danger btn-lg">Accueil</button>
-<a href="#critique-section" class="btn btn-danger btn-lg">Critique</a>
+    <div class="d-flex gap-3 p-3 ms-auto justify-content-end">
+      <button type="button" class="btn btn-danger btn-lg">Accueil</button>
+      <a href="#critique-section" class="btn btn-danger btn-lg">Critique</a>
 
-</div>
+    </div>
 
-    </header>
+  </header>
 
-    <div class="bg-light mt-2 pb-1"></div>
+  <div class="bg-white mt-2 pb-1"></div>
 
-    <div class="container" id="critique-section">
-        <div class="row d-flex space-evenly text-center">
-            <h1 class="col-6 py-5">Entertainment district</h1>
-            <h2 class="h1 col-6 pt-5">Mugen Train Arc</h2>
+  <div class="container" id="critique-section">
+    <div class="row d-flex space-evenly text-center">
+      <h1 class="col-6 py-5">Entertainment district</h1>
+      <h2 class="h1 col-6 pt-5">Mugen Train Arc</h2>
+    </div>
+
+    <img class="offset-2 col-2" src="assets/images/sound hashira.jpg">
+    <img class="offset-4 col-2" src="assets/images/fire hashira.jpg">
+
+    <div class="row">
+      <p class="col-5 offset-1 mt-2 text-white">
+        Cet arc est bien mieux rythmé que le précédent : après une mise en place calme et comique (avec les
+        déguisements dans les maisons de geishas), l’intensité monte progressivement jusqu’à atteindre un sommet
+        d’action et de tension dans les derniers épisodes. Il n’y a quasiment pas de temps mort.
+      </p>
+
+      <p class="col-5 mt-2 text-white">
+        L’arc du Train de l’Infini est sans doute l’un des arcs les plus marquants et émotionnellement puissants
+        de Demon Slayer. Il réussit à combiner action, suspense, et drame avec une maîtrise rare dans le shōnen
+        moderne.
+      </p>
+    </div>
+
+    <div class="row">
+      <p class="col-5 offset-1 mt-2 text-white">
+        Le Pilier du Son, Tengen Uzui, est un personnage charismatique, original et attachant. Son contraste
+        avec Rengoku (plus flamboyant, plus extravagant, mais aussi profondément humain) permet de renouveler
+        l’approche des Hashira. Ses trois épouses apportent aussi une touche d’originalité et d’humour à
+        l’équipe.
+      </p>
+
+      <p class="col-5 mt-2 text-white">
+        L’arc brille principalement grâce à Kyojuro Rengoku, le Pilier de la Flamme. En peu de temps, il devient
+        un personnage extrêmement attachant, avec une morale forte, une volonté inébranlable, et une énergie
+        positive contagieuse. Son combat final contre Akaza est à la fois épique et bouleversant.
+      </p>
+    </div>
+
+    <button type="button" class="btn btn-primary offset-1" data-bs-toggle="modal" data-bs-target="#entertainmentModal">
+      En savoir plus sur l'Arc Entertainment District
+    </button>
+
+
+    <div class="modal fade" id="entertainmentModal" tabindex="-1" aria-labelledby="entertainmentModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-white">
+
+          <div class="modal-header">
+            <h5 class="modal-title" id="entertainmentModalLabel">Entertainment District Arc</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body d-flex flex-column flex-md-row align-items-center gap-3">
+            <img src="assets/images/entertainmentdis.jpg" alt="Entertainment District Arc" class="img-fluid rounded"
+              style="max-width: 300px;">
+            <div>
+              <p>
+                Dans cet arc, Tanjiro, Zenitsu, et Inosuke s'associent au Pilier du Son, Tengen Uzui, pour enquêter sur
+                une activité démoniaque dans le quartier des plaisirs.
+                Ils affrontent Daki et Gyutaro, deux démons puissants liés par un passé tragique.
+                Cet arc combine des scènes d'action intenses avec des moments d'émotion profonde, explorant les thèmes
+                de la famille et du sacrifice.
+              </p>
+              <strong>Source: Pinterest</strong>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
         </div>
+      </div>
+    </div>
+<div class="modal fade" id="flameHashiraModal" tabindex="-1" aria-labelledby="flameHashiraModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-dark text-white">
 
-        <img class="offset-2 col-2" src="assets/images/sound hashira.jpg">
-        <img class="offset-4 col-2" src="assets/images/fire hashira.jpg">
-
-        <div class="row">
-            <p class="col-5 offset-1 mt-2 text-white">
-                Cet arc est bien mieux rythmé que le précédent : après une mise en place calme et comique (avec les
-                déguisements dans les maisons de geishas), l’intensité monte progressivement jusqu’à atteindre un sommet
-                d’action et de tension dans les derniers épisodes. Il n’y a quasiment pas de temps mort.
-            </p>
-
-            <p class="col-5 mt-2 text-white">
-                L’arc du Train de l’Infini est sans doute l’un des arcs les plus marquants et émotionnellement puissants
-                de Demon Slayer. Il réussit à combiner action, suspense, et drame avec une maîtrise rare dans le shōnen
-                moderne.
-            </p>
-        </div>
-
-        <div class="row">
-            <p class="col-5 offset-1 mt-2 text-white">
-                Le Pilier du Son, Tengen Uzui, est un personnage charismatique, original et attachant. Son contraste
-                avec Rengoku (plus flamboyant, plus extravagant, mais aussi profondément humain) permet de renouveler
-                l’approche des Hashira. Ses trois épouses apportent aussi une touche d’originalité et d’humour à
-                l’équipe.
-            </p>
-
-            <p class="col-5 mt-2 text-white">
-                L’arc brille principalement grâce à Kyojuro Rengoku, le Pilier de la Flamme. En peu de temps, il devient
-                un personnage extrêmement attachant, avec une morale forte, une volonté inébranlable, et une énergie
-                positive contagieuse. Son combat final contre Akaza est à la fois épique et bouleversant.
-            </p>
-        </div>
-
-<button type="button" class="btn btn-primary offset-1" data-bs-toggle="modal" data-bs-target="#entertainmentModal">
-  En savoir plus sur l'Arc Entertainment District
-</button>
-
-
-<div class="modal fade" id="entertainmentModal" tabindex="-1" aria-labelledby="entertainmentModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg"> 
-    <div class="modal-content bg-dark text-white"> 
-    
       <div class="modal-header">
-        <h5 class="modal-title" id="entertainmentModalLabel">Entertainment District Arc</h5>
+        <h5 class="modal-title" id="flameHashiraModalLabel">Mugen Train Arc – Hashira du Feu</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-   
+
       <div class="modal-body d-flex flex-column flex-md-row align-items-center gap-3">
-        <img src="assets/images/entertainmentdis.jpg" alt="Entertainment District Arc" class="img-fluid rounded" style="max-width: 300px;">
-        <div>          <p>
-            Dans cet arc, Tanjiro, Zenitsu, et Inosuke s'associent au Pilier du Son, Tengen Uzui, pour enquêter sur une activité démoniaque dans le quartier des plaisirs.
-            Ils affrontent Daki et Gyutaro, deux démons puissants liés par un passé tragique.
-            Cet arc combine des scènes d'action intenses avec des moments d'émotion profonde, explorant les thèmes de la famille et du sacrifice.
+        <img src="assets/images/trainarc.jpg" alt="Rengoku Kyojuro" class="img-fluid rounded" style="max-width: 300px;">
+        <div>
+          <p>
+            Dans l’arc du Train de l’Infini, le Pilier de la Flamme, <strong>Kyojuro Rengoku</strong>, joue un rôle central.
+            Accompagné de Tanjiro, Inosuke et Zenitsu, il affronte Enmu, un démon de rang inférieur, avant de livrer un combat épique contre Akaza, un démon de rang supérieur.
+            Rengoku démontre une force, une détermination et un sens du devoir exceptionnels, marquant les esprits par son courage et son ultime sacrifice.
           </p>
-<strong>Source: Pinterest</strong>
+          <strong>Source: Pinterest</strong>
         </div>
       </div>
 
@@ -96,24 +128,21 @@
     </div>
   </div>
 </div>
+<button type="button" class="offset-2 me-2 btn btn-primary" data-bs-toggle="modal" data-bs-target="#flameHashiraModal">
+  Voir le Hashira du Feu
+</button>
 
 
-    </div>
-
-   
-<div class="m-4">
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 100%;">
-  
-    </div>
   </div>
-</div>
-    
+  <div class="bg-white mt-2 pb-1"></div>
+
+  
 
 
 
 
-            <footer></footer>
+
+  <footer></footer>
 </body>
 
 </html>
