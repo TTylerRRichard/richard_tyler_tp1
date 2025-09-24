@@ -17,16 +17,17 @@
     <header class="d-flex align-items-center p-2">
         <img class="logo" src="assets/images/Demon-Slayer-Symbol.png">
 
-        <div class="d-flex gap-3 p-3">
-            <button type="button" class="btn btn-danger">Accueil</button>
-            <button type="button" class="btn btn-danger">Critique</button>
-        </div>
+      <div class="d-flex gap-3 p-3 ms-auto justify-content-end">
+  <button type="button" class="btn btn-danger btn-lg">Accueil</button>
+<a href="#critique-section" class="btn btn-danger btn-lg">Critique</a>
+
+</div>
 
     </header>
 
     <div class="bg-light mt-2 pb-1"></div>
 
-    <div class="container">
+    <div class="container" id="critique-section">
         <div class="row d-flex space-evenly text-center">
             <h1 class="col-6 py-5">Entertainment district</h1>
             <h2 class="h1 col-6 pt-5">Mugen Train Arc</h2>
@@ -43,18 +44,18 @@
             </p>
 
             <p class="col-5 mt-2 text-white">
-                Le Pilier du Son, Tengen Uzui, est un personnage charismatique, original et attachant. Son contraste
-                avec Rengoku (plus flamboyant, plus extravagant, mais aussi profondément humain) permet de renouveler
-                l’approche des Hashira. Ses trois épouses apportent aussi une touche d’originalité et d’humour à
-                l’équipe.
+                L’arc du Train de l’Infini est sans doute l’un des arcs les plus marquants et émotionnellement puissants
+                de Demon Slayer. Il réussit à combiner action, suspense, et drame avec une maîtrise rare dans le shōnen
+                moderne.
             </p>
         </div>
 
         <div class="row">
             <p class="col-5 offset-1 mt-2 text-white">
-                L’arc du Train de l’Infini est sans doute l’un des arcs les plus marquants et émotionnellement puissants
-                de Demon Slayer. Il réussit à combiner action, suspense, et drame avec une maîtrise rare dans le shōnen
-                moderne.
+                Le Pilier du Son, Tengen Uzui, est un personnage charismatique, original et attachant. Son contraste
+                avec Rengoku (plus flamboyant, plus extravagant, mais aussi profondément humain) permet de renouveler
+                l’approche des Hashira. Ses trois épouses apportent aussi une touche d’originalité et d’humour à
+                l’équipe.
             </p>
 
             <p class="col-5 mt-2 text-white">
@@ -64,17 +65,55 @@
             </p>
         </div>
 
+<button type="button" class="btn btn-primary offset-1" data-bs-toggle="modal" data-bs-target="#entertainmentModal">
+  En savoir plus sur l'Arc Entertainment District
+</button>
+
+
+<div class="modal fade" id="entertainmentModal" tabindex="-1" aria-labelledby="entertainmentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg"> 
+    <div class="modal-content bg-dark text-white"> 
+    
+      <div class="modal-header">
+        <h5 class="modal-title" id="entertainmentModalLabel">Entertainment District Arc</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+   
+      <div class="modal-body d-flex flex-column flex-md-row align-items-center gap-3">
+        <img src="assets/images/entertainmentdis.jpg" alt="Entertainment District Arc" class="img-fluid rounded" style="max-width: 300px;">
+        <div>          <p>
+            Dans cet arc, Tanjiro, Zenitsu, et Inosuke s'associent au Pilier du Son, Tengen Uzui, pour enquêter sur une activité démoniaque dans le quartier des plaisirs.
+            Ils affrontent Daki et Gyutaro, deux démons puissants liés par un passé tragique.
+            Cet arc combine des scènes d'action intenses avec des moments d'émotion profonde, explorant les thèmes de la famille et du sacrifice.
+          </p>
+<strong>Source: Pinterest</strong>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
     </div>
+  </div>
+</div>
+
+
     </div>
 
+   
+<div class="m-4">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 100%;">
+  
+    </div>
+  </div>
+</div>
+    
 
 
 
 
-
-
-
-    <footer></footer>
+            <footer></footer>
 </body>
 
 </html>
