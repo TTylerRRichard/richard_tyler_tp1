@@ -17,4 +17,12 @@ h1 {
  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-  
+
+.btn-primary {
+  background-color: rgb(250, 103, 179) ; 
+    
+}
+
+.btn-secondary {
+  background-color: rgb(238, 186, 99) ;
+}
