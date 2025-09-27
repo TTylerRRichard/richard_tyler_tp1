@@ -1,4 +1,10 @@
 
+:root
+ {
+    --bs-primary-rgb: 250, 103, 179;
+  --bs-secondary-rgb: 238, 186, 99;
+}
+
 .logo {
   height: 150px; 
   width: auto;
@@ -18,11 +24,3 @@ h1 {
     }
 
 
-.btn-primary {
-  background-color: rgb(250, 103, 179) ; 
-    
-}
-
-.btn-secondary {
-  background-color: rgb(238, 186, 99) ;
-}
