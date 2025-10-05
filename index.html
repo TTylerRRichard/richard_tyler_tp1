@@ -14,18 +14,19 @@
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <header class="d-flex align-items-center p-2">
+ <header class="d-flex align-items-center p-2 position-relative" style="background-image: url('assets/images/rengoku-tengen.jpg'); background-size: cover; background-position: center; height: 250px;">
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
     <img class="logo" src="assets/images/Demon-Slayer-Symbol.png">
 
-    <div class="d-flex gap-3 p-3 ms-auto justify-content-end">
-      <button type="button" class="btn btn-danger">Accueil</button>
-      <a href="#critique-section" class="btn btn-danger">Critique</a>
-
-    </div>
-
+    
   </header>
 
   <div class="bg-white mt-2 pb-1"></div>
+<div class="d-flex gap-3 p-3 ms-auto justify-content-end">
+      <button type="button" class="btn text-bg-primary">Accueil</button>
+      <a href="#critique-section" class="btn text-bg-secondary">Critique</a>
+
+    </div>
 
   <div class="container" id="critique-section">
     <div class="row d-flex space-between text-center">
@@ -134,7 +135,7 @@
         </div>
       </div>
     </div>
-    <button type="button" class="offset-4 me-2 bg-secondary" data-bs-toggle="modal"
+    <button type="button" class="offset-4 me-2 rounded bg-secondary" data-bs-toggle="modal"
       data-bs-target="#flameHashiraModal">
   En savoir plus
     </button>
@@ -148,8 +149,8 @@
     <div class="row align-items-center text-center text-md-start">
     
       <div class="col-md-4 mb-3 mb-md-0">
-     <i class="bi bi-globe"></i>
-        <span class="h5 align-middle">Demon Slayer Fan Page</span>
+     <i class="text-primary bi bi-globe"></i>
+        <span class="h5 text-primary align-middle">Demon Slayer Fan Page</span>
       </div>
 
 
@@ -162,7 +163,7 @@
 
     
       <div class="col-md-4 text-md-end">
-        <em class="small">"Enflamme ton cœur" – Kyojuro Rengoku</em>
+        <em class="small text-secondary">"Enflamme ton cœur" – Kyojuro Rengoku</em>
       </div>
     </div>
 
